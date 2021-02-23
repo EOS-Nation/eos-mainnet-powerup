@@ -73,7 +73,7 @@
       "min_transaction_cpu_usage": 100,
       "net_usage_leeway": 500,
       "target_block_cpu_usage_pct": 10,
-      "target_block_net_usage_pct": 10
+      "target_block_net_usage_pct": 10000
    }
 }
 ```
