@@ -21,7 +21,7 @@
 - [EOSIO contracts v1.9.2](https://github.com/EOSIO/eosio.contracts/releases/tag/v1.9.2)
 
 
-### `PowerUp` Config
+### PowerUp `config`
 
 ```json
 {
