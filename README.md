@@ -21,7 +21,7 @@
 - [EOSIO contracts v1.9.2](https://github.com/EOSIO/eosio.contracts/releases/tag/v1.9.2)
 
 
-### Config
+### `PowerUp` Config
 
 ```json
 {
@@ -48,6 +48,32 @@
       },
       "min_powerup_fee": "0.0001 EOS",
       "powerup_days": 1
+   }
+}
+```
+
+### System `config`
+
+```json
+{
+   "params": {
+      "base_per_transaction_net_usage": 12,
+      "context_free_discount_net_usage_den": 100,
+      "context_free_discount_net_usage_num": 20,
+      "deferred_trx_expiration_window": 600,
+      "max_authority_depth": 10,
+      "max_block_cpu_usage": 200000,
+      "max_block_net_usage": 1048576,
+      "max_inline_action_depth": 10,
+      "max_inline_action_size": 524287,
+      "max_transaction_cpu_usage": 150000,
+      "max_transaction_delay": 3888000,
+      "max_transaction_lifetime": 3600,
+      "max_transaction_net_usage": 524288,
+      "min_transaction_cpu_usage": 100,
+      "net_usage_leeway": 500,
+      "target_block_cpu_usage_pct": 10,
+      "target_block_net_usage_pct": 10
    }
 }
 ```
