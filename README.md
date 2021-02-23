@@ -12,9 +12,9 @@
 
 ### Assumed Stake Weight
 
-- Total staked: `482,091,056.2951 EOS`
-- Assumed NET: `96,418,211.2590 EOS`
-- Assumed CPU: `385,672,845.0360 EOS`
+- Total staked: `482,091,056.2951 EOS` (staked + lent)
+- Assumed NET: `96,418,211.2590 EOS` (total / 5)
+- Assumed CPU: `385,672,845.0360 EOS` (total / 5 * 4)
 
 ### References
 
